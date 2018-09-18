@@ -4,7 +4,9 @@ Custom preset for conventional-changelog
 
 ### Install
 
-`yarn add -D @anteriovieira/conventional-changelog`
+```bash
+yarn add -D @anteriovieira/conventional-changelog
+```
 
 ### Usage
 
@@ -35,4 +37,6 @@ const gen = module.exports = version => {
 gen(require('./package.json').version)
 ```
 
-`$ node changelog.js`
+```bash
+$ node changelog.js
+```
