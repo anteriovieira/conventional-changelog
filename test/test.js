@@ -58,7 +58,7 @@ betterThanBefore.setups([
   }
 ])
 
-describe('angular preset', function () {
+describe('anteriovieira preset', function () {
   it('should work if there is no semver tag', function (done) {
     preparing(1)
 
